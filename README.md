@@ -1,5 +1,6 @@
 # Semantics-Assisted Video Captioning Model Trained with Scheduled Sampling Strategy
-
+---
+## Data needed for training models
 - Model Saves on MSVD: [Link](https://cloud.tsinghua.edu.cn/f/4f6862262ba4478db23c/?dl=1)
 - MSVD reference file: [Link](https://cloud.tsinghua.edu.cn/f/aafd02d8cf4f44529bbd/?dl=1)
 - MSVD ResNeXt ECO file: [Link](https://cloud.tsinghua.edu.cn/f/8f5dfba901a34f0eb474/?dl=1)
