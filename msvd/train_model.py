@@ -33,8 +33,7 @@ options['n_h'] = 512            # output size
 options['n_v'] = 12594          # vocabulary size
 epoch = 50
 TRAIN_SIZE = 48774 
-VAL_SIZE = 4290
-TEST_SIZE = 27763
+
 flags, features, tag_feat, idx2word = None, None, None, None
 
 YOUTUBE_CORPUS = "./data/youtube_corpus.pkl"
@@ -69,8 +68,7 @@ def main():
         saver = tf.train.Saver(max_to_keep=30)
         # 训练模型
         train_idx = np.arange(TRAIN_SIZE, dtype=np.int32)
-        val_idx = np.arange(VAL_SIZE, dtype=np.int32)
-        test_idx = np.arange(TEST_SIZE, dtype=np.int32)
+
         config = tf.ConfigProto()
         config.gpu_options.allow_growth = True
         sess = tf.Session(config=config, graph=model.graph)
@@ -110,18 +108,6 @@ def train_step(data, model, sess, indices, train_op, eidx):
                  model.n_steps: captions.shape[0]}
     _, loss1, sents = sess.run(wanted_ops, feed_dict)
     return loss1, sents
-
-
-def val_test_step(data, model, sess, indices):
-    mask, tags, batch_feat, captions = get_batch(bs, data, indices)
-    wanted_ops = [model.sents_sample, model.loss_sample]
-    feed_dict = {model.words: captions, model.mask: mask,
-                 model.y: tags, model.z: batch_feat, 
-                 model.batch_size: batch_feat.shape[0], 
-                 model.n_steps: captions.shape[0]}
-    sents, loss_sample = sess.run(wanted_ops, feed_dict)
-
-    return loss_sample, sents
 
 
 def get_batch(bs, all_data, indices):
@@ -186,31 +172,6 @@ def train_part(train_data, model, sess, train_op, idx1, train_gt_sents):
                 train_preds.append(tmp)
         print_sents(train_idx, train_gt_sents, train_preds, 'train')
 
-
-def val_test_part(data, model, sess, idx1, gt_sents, phase):
-    if phase == "val":
-        SIZE = VAL_SIZE
-    else:
-        SIZE = TEST_SIZE
-    idx = np.arange(SIZE)
-    loss = 0
-    sent_list = []
-    for idx2 in range(SIZE // bs):
-        indices = idx[idx2 * bs:(idx2 + 1) * bs]
-        loss1, sents = val_test_step(data, model, sess, indices)
-        loss += loss1
-        sent_list.append(sents.T)
-    r_num = SIZE % bs
-    if r_num:
-        indices = idx[SIZE // bs * bs:SIZE]
-        loss1, sents = val_test_step(data, model, sess, indices)
-        sent_list.append(sents.T)
-        loss += loss1
-    preds = [[idx2word[w] for w in sent] for sent in sent_list[0]]
-    if idx1 % 10 == 9:
-        print_sents(idx, gt_sents, preds, phase)
-    print("Epoch {:3d}: {} Loss {:.5f}".format(idx1, phase, loss / SIZE), flush=True)
-    return loss / SIZE
 
 
 def cal_metrics(model, sess, phase):
