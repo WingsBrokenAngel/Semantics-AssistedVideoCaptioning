@@ -1,4 +1,15 @@
-# Semantics-Assisted Video Captioning Model Trained with Scheduled Sampling Strategy
+# Semantics-Assisted Video Captioning Model
+
+This repo contains the code of Semantics-Assisted Video Captioning Model, based on the paper 
+"[Semantics-Assisted Video Captioning Model Trained with Scheduled Sampling Strategy](https://arxiv.org/abs/1909.00121)"
+
+---
+## Dependencies
+* Python3.6
+* TensorFlow 1.13
+* NumPy
+* pycocoevalcap
+
 ---
 ## Data
 ### Saved Models
@@ -19,3 +30,24 @@
 - MSRVTT Corpus file: [Link](https://cloud.tsinghua.edu.cn/f/97cb4f640f194731a550/?dl=1)
 - MSVD tag ground truth for MSRVTT tag model: [Link](https://cloud.tsinghua.edu.cn/f/5d411b6e16f64da58bb5/?dl=1)
 - MSRVTT tag ground truth for MSRVTT tag model: [Link](https://cloud.tsinghua.edu.cn/f/831616470b344dec9de0/?dl=1)
+
+---
+## Citing Semantics-Assisted Video Captioning Model Trained with Scheduled Sampling Strategy
+
+    @ARTICLE{2019arXiv190900121C,
+           author = {{Chen}, Haoran and {Lin}, Ke and {Maye}, Alexander and {Li}, Jianming and
+             {Hu}, Xiaolin},
+            title = "{A Semantics-Assisted Video Captioning Model Trained with Scheduled Sampling}",
+          journal = {arXiv e-prints},
+         keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Computation and Language},
+             year = "2019",
+            month = "Aug",
+              eid = {arXiv:1909.00121},
+            pages = {arXiv:1909.00121},
+    archivePrefix = {arXiv},
+           eprint = {1909.00121},
+     primaryClass = {cs.CV},
+           adsurl = {https://ui.adsabs.harvard.edu/abs/2019arXiv190900121C},
+          adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+    }
+
