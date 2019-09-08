@@ -1,5 +1,7 @@
 # Semantics-Assisted Video Captioning Model
 
+[TOC]
+
 This repo contains the code of Semantics-Assisted Video Captioning Model, based on the paper 
 "[Semantics-Assisted Video Captioning Model Trained with Scheduled Sampling Strategy](https://arxiv.org/abs/1909.00121)"
 
