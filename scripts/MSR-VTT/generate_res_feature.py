@@ -18,7 +18,7 @@ import glob
 
 batch_size = 32
 seg_size = 32
-train_path = '/home/chenhaoran/data1/msr-vtt/train-video-frame'
+train_path = '/PATH/TO/VIDEO/FRAME'
 dims = [batch_size, 224, 224, 3]
 global flags
 

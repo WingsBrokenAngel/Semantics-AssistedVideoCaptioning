@@ -17,8 +17,8 @@ import pickle
 
 batch_size = 32
 seg_size = 32
-path1 = '/home/chenhaoran/data/MSVD_frames'
-path2 = './dict_youtube_mapping.pkl'
+path1 = '/PATH/VIDEO/FRAMES'
+path2 = '/PATH/TO/VIDEO/MAPPING/FILE'
 dims = [batch_size, 224, 224, 3]
 
 

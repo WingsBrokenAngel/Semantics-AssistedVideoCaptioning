@@ -17,7 +17,7 @@ from glob import glob
 
 batch_size = 32
 seg_size = 32
-path1 = '/home/chenhaoran/data1/msr-vtt/train-video-frame'
+path1 = '/PATH/TO/YOUR/VIDEO/FRAME'
 dims = [batch_size, 224, 224, 3]
 
 
@@ -70,8 +70,8 @@ def generate_feat(model_def_file, model_file):
 
 if __name__ == "__main__":
     # 模型文件
-    model_def_file = "/home/chenhaoran/data1/eco/models/ECO_full_kinetics.caffemodel"
-    model_file = "/home/chenhaoran/data1/eco/models_ECO_Full/kinetics/deploy.prototxt"
+    model_def_file = "/PATH/TO/ECO/SAVE/MODEL"
+    model_file = "/PATH/TO/ECO/DEPLOY/FILE"
     # 产生特征
     generate_feat(model_def_file, model_file)
 

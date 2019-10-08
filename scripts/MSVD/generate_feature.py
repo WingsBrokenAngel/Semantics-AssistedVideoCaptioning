@@ -15,8 +15,8 @@ import pickle
 
 batch_size = 32
 seg_size = 32
-path1 = '/home/chenhaoran/data/MSVD_frames'
-path2 = './dict_youtube_mapping.pkl'
+path1 = '/PATH/TO/VIDEO/FRAMES'
+path2 = '/PATH/TO/VIDEO/MAP/FILE'
 dims = [batch_size, 224, 224, 3]
 
 
@@ -72,8 +72,8 @@ def generate_feat(model_def_file, model_file, dmap):
 
 if __name__ == "__main__":
     # 模型文件
-    model_def_file = "/home/chenhaoran/data1/eco/models/ECO_full_kinetics.caffemodel"
-    model_file = "/home/chenhaoran/data1/eco/models_ECO_Full/kinetics/deploy.prototxt"
+    model_def_file = "/PATH/TO/ECO/CAFFE/MODEL/FILE"
+    model_file = "/PATH/TO/ECO/CAFFE/DEPLOY/FILE"
     # 产生特征
     dmap = pickle.load(open(path2, 'rb'))
     generate_feat(model_def_file, model_file, dmap)
