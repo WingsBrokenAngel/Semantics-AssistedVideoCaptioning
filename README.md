@@ -1,4 +1,4 @@
-# Semantics-Assisted Video Captioning Model
+# Semantics-Assisted Video Captioning Model Trained with Scheduled Sampling Strategy
 
 ## Table of Contents
 1. [Description](#description)
