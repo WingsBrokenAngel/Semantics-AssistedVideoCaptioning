@@ -14,7 +14,7 @@
 ## <a name="description"></a> Description
 
 This repo contains the code of Semantics-Assisted Video Captioning Model, based on the paper 
-"[Semantics-Assisted Video Captioning Model Trained with Scheduled Sampling Strategy](https://arxiv.org/abs/1909.00121)"
+"[Semantics-Assisted Video Captioning Model Trained with Scheduled Sampling Strategy](https://arxiv.org/abs/1909.00121)". It is under review at *Frontiers in Robotics and AI*.
 
 
 We propose three ways to improve the video captioning model. First of all, we utilize both spatial 
