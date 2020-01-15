@@ -1,5 +1,10 @@
 # Semantics-Assisted Video Captioning Model Trained with Scheduled Sampling Strategy
-
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+![Github Watchers](https://img.shields.io/github/watchers/WingsBrokenAngel/Semantics-AssistedVideoCaptioning?color=brightgreen)
+![GitHub stars](https://img.shields.io/github/stars/WingsBrokenAngel/Semantics-AssistedVideoCaptioning?color=brightgreen)
+![GitHub forks](https://img.shields.io/github/forks/WingsBrokenAngel/Semantics-AssistedVideoCaptioning?color=brightgreen&label=Fork)
+![License](https://img.shields.io/github/license/WingsBrokenAngel/Semantics-AssistedVideoCaptioning.svg?color=brightgreen&style=flat)
+ 
 ## Table of Contents
 1. [Description](#description)
 2. [Dependencies](#dependencies)
