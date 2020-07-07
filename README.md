@@ -148,38 +148,48 @@ If you need a newer and more powerful model, please refer to [Delving-Deeper-int
 
 ### <a name="dmsrvtt"></a> MSRVTT
 - [MSRVTT reference file](https://cloud.tsinghua.edu.cn/f/5c5d25edacae415fa0bf/?dl=1)
+([GoogleDrive](https://drive.google.com/file/d/1qn_ZVZwQG7x6hnvl0yARv332jo2ZB-DN/view?usp=sharing))
     * MD5 2ca68300ab2440ab0f6972ea12a0f323
     * SHA-1 024be7b58fd26c5add388e42210170484f0e86cf
 - [MSRVTT ResNeXt ECO file](https://cloud.tsinghua.edu.cn/f/8ecb879d77db41b2b06c/?dl=1)
+([GoogleDrive](https://drive.google.com/file/d/1RxCYIN651n0xrE0p9VEB8QxTNa3wUYnP/view?usp=sharing))
     * This is the video-level feature extracted by 
     [ResNeXt101c64](https://github.com/taehoonlee/tensornets) and 
     [Efficient Convolutional Network](https://github.com/mzolfaghari/ECO-efficient-video-understanding).
     * MD5 d0f05df7d113e4914ab9981d03c7dc70
     * SHA-1 258e3e92462469dbaf97808f2ca1eb8369f0930b
 - [MSRVTT Semantic tag file](https://cloud.tsinghua.edu.cn/f/07158bab9f7a4ba3918b/?dl=1)
+([GoogleDrive](https://drive.google.com/file/d/11B5oVj06L4PlG1xuu6ECbNvntHgqk2iz/view?usp=sharing))
     * MD5 e41fd8fe8e198a6578c84db273ca8bd9
     * SHA-1 2129dccd7a67a3d56d803e9f4c032da9b7e81742
 - [MSRVTT Corpus file](https://cloud.tsinghua.edu.cn/f/97cb4f640f194731a550/?dl=1)
+([GoogleDrive](https://drive.google.com/file/d/1xUnWIEqhrXtzauXPdv75e_VgPzNoon7j/view?usp=sharing))
     * MD5 eba8f53dc1fc1f91bc1d434326964366
     * SHA-1 5a63a2d4215b6894cb6d8c9319c133896ece3ea2
 - [MSVD tag ground truth for MSRVTT tag model](https://cloud.tsinghua.edu.cn/f/5d411b6e16f64da58bb5/?dl=1)
+([GoogleDrive](https://drive.google.com/file/d/1MU6sMIFgWkR_Cb1Ff6KzpBqMXFhMhXZ8/view?usp=sharing))
     * MD5 c9ce9007ef754338d89e40018d14c923
     * SHA-1 03719c1324f9299a510c8c380352b9f4b7125878
 - [MSRVTT tag ground truth for MSRVTT tag model](https://cloud.tsinghua.edu.cn/f/831616470b344dec9de0/?dl=1)
+([GoogleDrive](https://drive.google.com/file/d/14PHj4dfs75Fm5ZR43S6RDXPHT83U6A8K/view?usp=sharing))
     * The previous two files are used to train the tagging network.
     * MD5 e7d6defa3278bc91ecd7dcbdbda16649
     * SHA-1 2eea2721fcf744d8e42b6ef95c1e2b481534c5aa
 - [MSRVTT tag word2index and index2word](https://cloud.tsinghua.edu.cn/f/ea0c962bfca147d6bdbb/?dl=1)
+([GoogleDrive](https://drive.google.com/file/d/1XPS_gRwK0LFG1m0NWiXAPRemx1zEfVyw/view?usp=sharing))
     * This file contains word-to-index mapping and index-to-word mapping.
     * SHA-256 50b00cebb12a38c0c4a546c577c99c12e97c8961b4f2ce9472b77d4ad05e1226
 - Model Checkpoint:
     + [meta](https://cloud.tsinghua.edu.cn/f/cd66aab5dacb4f228aa0/?dl=1)
+    ([GoogleDrive](https://drive.google.com/file/d/1AyzRNULV-j9ue4kIYN0HfTwGJ53-g1WA/view?usp=sharing))
         * MD5 cc4e6775bf0eec75b06e6e6fecfd5eb6
         * SHA-256 f0e1cca6d4186756b6a7f062a0a9824357fe1d37dfb984ad09ceda2a7db01fac
     + [index](https://cloud.tsinghua.edu.cn/f/e9c5d2fc4ab8461595ce/?dl=1)
+    ([GoogleDrive](https://drive.google.com/file/d/12PS3xjXgBO6Jg_hZT8--c3nKhWrIVhZY/view?usp=sharing))
         * MD5 0da1d37d62ca514c9b31f6c8fced4559
         * SHA-256 ab6f16f94b91d824b8777dda40a67770e0d73b548f556d1f6c169a7862fb3906
     + [data-00000-of-00001](https://cloud.tsinghua.edu.cn/f/0af43c801cfd4be7bb9d/?dl=1)
+    ([GoogleDrive](https://drive.google.com/file/d/1m0KPeesyx7KynA_QGmS6wsox9Toq8py9/view?usp=sharing))
         * MD5 5f28126cc6a2e38fe7919715cbc4bb7e
         * SHA-256 74ad87644a9380ef8fca0f2beee85e0ba87a9bfe20e05e4e93dfe4d876a7f167
 - MSR-VTT Dataset:
