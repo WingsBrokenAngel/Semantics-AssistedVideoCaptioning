@@ -204,11 +204,17 @@ If you need a newer and more powerful model, please refer to [Delving-Deeper-int
 	([THUCloud](https://cloud.tsinghua.edu.cn/f/19979e0c71e34988b440/?dl=1))
 	([GoogleDrive](https://drive.google.com/file/d/1iJsKnBcVdwD5h23k-dHu-K7Y_cUssUNy/view?usp=sharing))
 		- SHA-256: ce2d97dd82d03e018c6f9ee69c96eb784397d1c83f734fdb8c17aafa5e27da31
-	- [msr-vtt-v1.part1.rar](https://cloud.tsinghua.edu.cn/f/5b52ddbf9ad8400c8825/?dl=1)
+	- msr-vtt-v1.part1.rar
+	([THUCloud](https://cloud.tsinghua.edu.cn/f/5b52ddbf9ad8400c8825/?dl=1))
+	([GoogleDrive](https://drive.google.com/file/d/18SYvjAll1GNTlIPZALEu6hsLZHzGGOyL/view?usp=sharing))
 		- SHA-256: 3445e0d1bffda3739110dfcf14182b63222731af8a4d7153f0ac09dbec39a0d3
-	- [msr-vtt-v1.part2.rar](https://cloud.tsinghua.edu.cn/f/0d20582e783d447ab96e/?dl=1)
+	- msr-vtt-v1.part2.rar
+	([THUCloud](https://cloud.tsinghua.edu.cn/f/0d20582e783d447ab96e/?dl=1))
+	([GoogleDrive](https://drive.google.com/file/d/1yMChVxvyRWm9A2ynUPO6bq2Wi3AHRkV0/view?usp=sharing))
 		- SHA-256: b550997526272ab68a42f1bd93315aa2bbb521c71f33d0cb922fbbfb86f15aae
-	- [msr-vtt-v1.part3.rar](https://cloud.tsinghua.edu.cn/f/28d799c95d3a47a4aed9/?dl=1)
+	- msr-vtt-v1.part3.rar
+	([THUCloud](https://cloud.tsinghua.edu.cn/f/28d799c95d3a47a4aed9/?dl=1))
+	([GoogleDrive](https://drive.google.com/file/d/1WX7TWnFQzTqAGeLAarcL6sAQ0ECNHmQb/view?usp=sharing))
 		- SHA-256: debbd0e535e77d9927ffb375299c08990519e22ba7dac542b464b70d440ef515
 
 ### <a name="deco"></a>ECO
