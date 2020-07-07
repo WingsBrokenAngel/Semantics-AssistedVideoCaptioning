@@ -125,7 +125,7 @@ If you need a newer and more powerful model, please refer to [Delving-Deeper-int
     * The previous two files are used to train the tagging network.
     * MD5 d899e591940926fdbe97dd756a6b1cd8
     * SHA-1 4a8b7c72c2ba9e525ef5cdce27c61e4eff22bb5e
-- MSVD tag index2word and word2index mappings([THUCloud](https://github.com/zhegan27/SCN_for_video_captioning))
+- MSVD tag index2word and word2index mappings([ExternalRepo](https://github.com/zhegan27/SCN_for_video_captioning))
     * We use the same word-index mapping in semantic tag to the code in this link.
 - Video name to numerical index mapping file of MSVD([THUCloud](https://cloud.tsinghua.edu.cn/f/fb7b269de7964d56af82/?dl=1)) 
 ([GoogleDrive](https://drive.google.com/file/d/1SSfj7JQTi3H-nukYu6KbOk_Sj2RRsyz8/view?usp=sharing))
