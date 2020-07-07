@@ -200,7 +200,9 @@ If you need a newer and more powerful model, please refer to [Delving-Deeper-int
         * MD5 5f28126cc6a2e38fe7919715cbc4bb7e
         * SHA-256 74ad87644a9380ef8fca0f2beee85e0ba87a9bfe20e05e4e93dfe4d876a7f167
 - MSR-VTT Dataset:
-	- [train_val_test_annotation.zip](https://cloud.tsinghua.edu.cn/f/19979e0c71e34988b440/?dl=1)
+	- train_val_test_annotation.zip
+	([THUCloud](https://cloud.tsinghua.edu.cn/f/19979e0c71e34988b440/?dl=1))
+	([GoogleDrive](https://drive.google.com/file/d/1iJsKnBcVdwD5h23k-dHu-K7Y_cUssUNy/view?usp=sharing))
 		- SHA-256: ce2d97dd82d03e018c6f9ee69c96eb784397d1c83f734fdb8c17aafa5e27da31
 	- [msr-vtt-v1.part1.rar](https://cloud.tsinghua.edu.cn/f/5b52ddbf9ad8400c8825/?dl=1)
 		- SHA-256: 3445e0d1bffda3739110dfcf14182b63222731af8a4d7153f0ac09dbec39a0d3
@@ -210,7 +212,9 @@ If you need a newer and more powerful model, please refer to [Delving-Deeper-int
 		- SHA-256: debbd0e535e77d9927ffb375299c08990519e22ba7dac542b464b70d440ef515
 
 ### <a name="deco"></a>ECO
-- [ECO_full_kinetics.caffemodel](https://cloud.tsinghua.edu.cn/f/fbc0d5879d2c4ab8ab81/?dl=1)
+- ECO_full_kinetics.caffemodel
+([THUCloud](https://cloud.tsinghua.edu.cn/f/fbc0d5879d2c4ab8ab81/?dl=1))
+([GoogleDrive](https://drive.google.com/file/d/18infS2YgBFEVKMphtO8XEtmMcZiZldYo/view?usp=sharing))
     + MD5 31ed18d5eadfd59cb65b7dcdadc310b4
     + SHA-1 b749384d2dac102b8035965566e3030fce465c20
 
