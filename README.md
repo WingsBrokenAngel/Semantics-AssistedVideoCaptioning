@@ -178,7 +178,8 @@ If you need a newer and more powerful model, please refer to [Delving-Deeper-int
     * The previous two files are used to train the tagging network.
     * MD5 e7d6defa3278bc91ecd7dcbdbda16649
     * SHA-1 2eea2721fcf744d8e42b6ef95c1e2b481534c5aa
-- [MSRVTT tag word2index and index2word](https://cloud.tsinghua.edu.cn/f/ea0c962bfca147d6bdbb/?dl=1)
+- MSRVTT tag word2index and index2word
+([THUCloud](https://cloud.tsinghua.edu.cn/f/ea0c962bfca147d6bdbb/?dl=1))
 ([GoogleDrive](https://drive.google.com/file/d/1XPS_gRwK0LFG1m0NWiXAPRemx1zEfVyw/view?usp=sharing))
     * This file contains word-to-index mapping and index-to-word mapping.
     * SHA-256 50b00cebb12a38c0c4a546c577c99c12e97c8961b4f2ce9472b77d4ad05e1226
