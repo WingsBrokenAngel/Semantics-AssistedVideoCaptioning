@@ -100,40 +100,49 @@ If you need a newer and more powerful model, please refer to [Delving-Deeper-int
 
 ### <a name="dmsvd"></a> MSVD
 - [MSVD reference file](https://cloud.tsinghua.edu.cn/f/aafd02d8cf4f44529bbd/?dl=1) 
-[GoogleDrive](https://drive.google.com/file/d/1mOioflb-P7BK43r-dElxAvhNLKmbbjbk/view?usp=sharing)
+([GoogleDrive](https://drive.google.com/file/d/1mOioflb-P7BK43r-dElxAvhNLKmbbjbk/view?usp=sharing))
     * MD5 9101af3b24c27e0c63b98ac55511d04c
     * SHA-1 3cd3b556c06e8f944f0f01ae8ac03a262dd0af04
-- [MSVD ResNeXt ECO file](https://cloud.tsinghua.edu.cn/f/8f5dfba901a34f0eb474/?dl=1) [GoogleDrive](https://drive.google.com/file/d/1dfOnxYRwH0hUVrspYOCM4I5gdihH8YOz/view?usp=sharing)
+- [MSVD ResNeXt ECO file](https://cloud.tsinghua.edu.cn/f/8f5dfba901a34f0eb474/?dl=1) 
+([GoogleDrive](https://drive.google.com/file/d/1dfOnxYRwH0hUVrspYOCM4I5gdihH8YOz/view?usp=sharing))
     * This is the video-level feature extracted by [ResNeXt101c64](https://github.com/taehoonlee/tensornets) and [Efficient Convolutional Network](https://github.com/mzolfaghari/ECO-efficient-video-understanding).
     * MD5 b4307b302f8d9754e6e7dac284da0625
     * SHA-1 a34ab8c1b3fc2ecfae43d454ddd3f6eddccbeb1a
-- [MSVD Semantic tag file](https://cloud.tsinghua.edu.cn/f/d463a2eecc7645f3965d/?dl=1)[GoogleDrive](https://drive.google.com/file/d/1VSD_jtVl34GPqArksXsaVT2LzGEXrsju/view?usp=sharing)
+- [MSVD Semantic tag file](https://cloud.tsinghua.edu.cn/f/d463a2eecc7645f3965d/?dl=1)
+([GoogleDrive](https://drive.google.com/file/d/1VSD_jtVl34GPqArksXsaVT2LzGEXrsju/view?usp=sharing))
     * MD5 df5dd440bf6ad78a3266dfbf9018d01e
     * SHA-1 0fb63a3b381c56baf982bbb4fc46027f26a45b02
-- [MSVD Corpus file](https://cloud.tsinghua.edu.cn/f/70b264998e4d40aeb1d6/?dl=1)[GoogleDrive](https://drive.google.com/file/d/1xWc3ymqSsPmhCnSPCE65kJ-hIzJSBAdL/view?usp=sharing)
+- [MSVD Corpus file](https://cloud.tsinghua.edu.cn/f/70b264998e4d40aeb1d6/?dl=1)
+([GoogleDrive](https://drive.google.com/file/d/1xWc3ymqSsPmhCnSPCE65kJ-hIzJSBAdL/view?usp=sharing))
     * MD5 0161e1d3207f10f7e13f36a10ae81c4f
     * SHA-1 a57c184f80ab2962ffdee71391fc6692c9a42c4b
-- [MSVD tag ground truth for MSVD tag model](https://cloud.tsinghua.edu.cn/f/a8149c864cf741039c0d/?dl=1)[GoogleDrive](https://drive.google.com/file/d/1__MLE7V7FxeO9ZDTjyyAkws3QqHrgGv7/view?usp=sharing)
+- [MSVD tag ground truth for MSVD tag model](https://cloud.tsinghua.edu.cn/f/a8149c864cf741039c0d/?dl=1)
+([GoogleDrive](https://drive.google.com/file/d/1__MLE7V7FxeO9ZDTjyyAkws3QqHrgGv7/view?usp=sharing))
     * MD5 e2d66ae3f2c28f25071c8ed4591ee9bb
     * SHA-1 351ed0f794ac4ff17ff96a7984a259b1843fa2f0
-- [MSRVTT tag ground truth for MSVD tag model](https://cloud.tsinghua.edu.cn/f/d5ee9fd74cde47feb7d6/?dl=1)[GoogleDrive](https://drive.google.com/file/d/1Uk8nZUGenRTEEF8RdnzyyrGloNpCz81x/view?usp=sharing)
+- [MSRVTT tag ground truth for MSVD tag model](https://cloud.tsinghua.edu.cn/f/d5ee9fd74cde47feb7d6/?dl=1)
+([GoogleDrive](https://drive.google.com/file/d/1Uk8nZUGenRTEEF8RdnzyyrGloNpCz81x/view?usp=sharing))
     * The previous two files are used to train the tagging network.
     * MD5 d899e591940926fdbe97dd756a6b1cd8
     * SHA-1 4a8b7c72c2ba9e525ef5cdce27c61e4eff22bb5e
 - [MSVD tag index2word and word2index mappings](https://github.com/zhegan27/SCN_for_video_captioning)
     * We use the same word-index mapping in semantic tag to the code in this link.
-- [Video name to numerical index mapping file of MSVD](https://cloud.tsinghua.edu.cn/f/fb7b269de7964d56af82/?dl=1) [GoogleDrive](https://drive.google.com/file/d/1SSfj7JQTi3H-nukYu6KbOk_Sj2RRsyz8/view?usp=sharing)
+- [Video name to numerical index mapping file of MSVD](https://cloud.tsinghua.edu.cn/f/fb7b269de7964d56af82/?dl=1) 
+([GoogleDrive](https://drive.google.com/file/d/1SSfj7JQTi3H-nukYu6KbOk_Sj2RRsyz8/view?usp=sharing))
     + data type: dict, each key is a video name and the corresponding value is the video index.
     + MD5 ee3ef82df50694db629297fd60fd7427
     + SHA-1 99240d9e91cb6378fded8a6702301e390ffc17fc 
 - Model Checkpoint:
-    + [meta](https://cloud.tsinghua.edu.cn/f/7e2a7d9947a94d7d9a07/?dl=1)[GoogleDrive](https://drive.google.com/file/d/1aB10Dgqzm2CIjUMlEWXKJU-C3aEuAJEZ/view?usp=sharing)
+    + [meta](https://cloud.tsinghua.edu.cn/f/7e2a7d9947a94d7d9a07/?dl=1)
+    ([GoogleDrive](https://drive.google.com/file/d/1aB10Dgqzm2CIjUMlEWXKJU-C3aEuAJEZ/view?usp=sharing))
         * MD5 5d8a0510b20734cf58df9554fd421c50
         * SHA-256 b3ce468e35cab0b409b6de8379fe4db89a439756ca9a33f16e4724b245c3174b
-    + [index](https://cloud.tsinghua.edu.cn/f/86c1f4d1d4154c09991c/?dl=1)[GoogleDrive](https://drive.google.com/file/d/15cEU1AxefRjLLNZzF94TiGSDEZ25OZkH/view?usp=sharing)
+    + [index](https://cloud.tsinghua.edu.cn/f/86c1f4d1d4154c09991c/?dl=1)
+    ([GoogleDrive](https://drive.google.com/file/d/15cEU1AxefRjLLNZzF94TiGSDEZ25OZkH/view?usp=sharing))
         * MD5 0867cdf66639e9f6fc1f5d1c78b7d05e
         * SHA-256 462ca7467593393e28f211fb2554e34f80c23e2e3d8e1f49668530064cb7abae
-    + [data-00000-of-00001](https://cloud.tsinghua.edu.cn/f/7c94ed922e204fc090d3/?dl=1)[GoogleDrive](https://drive.google.com/file/d/1wtp4g-q90Cs5FoSgv0Zj2kInbKFFnhUu/view?usp=sharing)
+    + [data-00000-of-00001](https://cloud.tsinghua.edu.cn/f/7c94ed922e204fc090d3/?dl=1)
+    ([GoogleDrive](https://drive.google.com/file/d/1wtp4g-q90Cs5FoSgv0Zj2kInbKFFnhUu/view?usp=sharing))
         * MD5 1c3a83f1c9a0a38e30d4ab22af77377d
         * SHA-256 caeaf341f86599c4acef0a67d893f040fa0d287dde8cac7db70bb3e24a10b68f
 
