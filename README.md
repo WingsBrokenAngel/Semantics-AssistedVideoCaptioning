@@ -218,6 +218,7 @@ If you need a newer and more powerful model, please refer to [Delving-Deeper-int
 		- SHA-256: debbd0e535e77d9927ffb375299c08990519e22ba7dac542b464b70d440ef515
 
 ### <a name="deco"></a>ECO
+- Source Code: [GitHub](https://github.com/mzolfaghari/ECO-efficient-video-understanding).
 - ECO_full_kinetics.caffemodel
 ([THUCloud](https://cloud.tsinghua.edu.cn/f/fbc0d5879d2c4ab8ab81/?dl=1))
 ([GoogleDrive](https://drive.google.com/file/d/18infS2YgBFEVKMphtO8XEtmMcZiZldYo/view?usp=sharing))

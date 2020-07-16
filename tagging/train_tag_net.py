@@ -74,10 +74,10 @@ def main():
 
         residual, costs, accs = test_num % batch_size, 0.0, 0.0
         for idx in range(test_num // batch_size):
-            ret = test_step(test_x, test_y, idx, batch_size, tag_net, wanted_ops, sess)
+            ret = test_step(test_x, test_y, idx, batch_size, tag_net, wanted_ops[:-1], sess)
             costs, accs = costs + ret[0], accs + ret[1]
         if residual:
-            ret = test_step(test_x, test_y, idx, residual, tag_net, wanted_ops, sess)
+            ret = test_step(test_x, test_y, idx, residual, tag_net, wanted_ops[:-1], sess)
             costs, accs = costs + ret[0], accs + ret[1]
 
         avg_cost, avg_acc = costs / test_num, accs / test_num
