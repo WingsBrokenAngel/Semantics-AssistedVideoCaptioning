@@ -186,20 +186,16 @@ If you need a newer and more powerful model, please refer to [Delving-Deeper-int
 ---
 ## <a name="citation"></a> Citation
 
-    @ARTICLE{2019arXiv190900121C,
-           author = {{Chen}, Haoran and {Lin}, Ke and {Maye}, Alexander and {Li}, Jianming and
-             {Hu}, Xiaolin},
-            title = "{A Semantics-Assisted Video Captioning Model Trained with Scheduled Sampling}",
-          journal = {arXiv e-prints},
-         keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Computation and Language},
-             year = "2019",
-            month = "Aug",
-              eid = {arXiv:1909.00121},
-            pages = {arXiv:1909.00121},
-    archivePrefix = {arXiv},
-           eprint = {1909.00121},
-     primaryClass = {cs.CV},
-           adsurl = {https://ui.adsabs.harvard.edu/abs/2019arXiv190900121C},
-          adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+    @ARTICLE{10.3389/frobt.2020.475767,
+        AUTHOR={Chen, Haoran and Lin, Ke and Maye, Alexander and Li, Jianmin and Hu, Xiaolin},   
+        TITLE={A Semantics-Assisted Video Captioning Model Trained With Scheduled Sampling},      
+        JOURNAL={Frontiers in Robotics and AI},      
+        VOLUME={7},      
+        PAGES={129},     
+        YEAR={2020},      
+        URL={https://www.frontiersin.org/article/10.3389/frobt.2020.475767},       
+        DOI={10.3389/frobt.2020.475767},      
+        ISSN={2296-9144},   
+        ABSTRACT={Given the features of a video, recurrent neural networks can be used to automatically generate a caption for the video. Existing methods for video captioning have at least three limitations. First, semantic information has been widely applied to boost the performance of video captioning models, but existing networks often fail to provide meaningful semantic features. Second, the Teacher Forcing algorithm is often utilized to optimize video captioning models, but during training and inference, different strategies are applied to guide word generation, leading to poor performance. Third, current video captioning models are prone to generate relatively short captions that express video contents inappropriately. Toward resolving these three problems, we suggest three corresponding improvements. First of all, we propose a metric to compare the quality of semantic features, and utilize appropriate features as input for a semantic detection network (SDN) with adequate complexity in order to generate meaningful semantic features for videos. Then, we apply a scheduled sampling strategy that gradually transfers the training phase from a teacher-guided manner toward a more self-teaching manner. Finally, the ordinary logarithm probability loss function is leveraged by sentence length so that the inclination of generating short sentences is alleviated. Our model achieves better results than previous models on the YouTube2Text dataset and is competitive with the previous best model on the MSR-VTT dataset.}
     }
 
