@@ -1,5 +1,5 @@
 # Semantics-Assisted Video Captioning Model Trained with Scheduled Sampling Strategy
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) ![](https://img.shields.io/badge/VideoCaptioning-DeepLearning-orange) ![Github Watchers](https://img.shields.io/github/watchers/WingsBrokenAngel/Semantics-AssistedVideoCaptioning?color=brightgreen) ![GitHub stars](https://img.shields.io/github/stars/WingsBrokenAngel/Semantics-AssistedVideoCaptioning?color=brightgreen) ![GitHub forks](https://img.shields.io/github/forks/WingsBrokenAngel/Semantics-AssistedVideoCaptioning?color=brightgreen&label=Fork) ![License](https://img.shields.io/github/license/WingsBrokenAngel/Semantics-AssistedVideoCaptioning.svg?color=brightgreen&style=flat)
+![](https://img.shields.io/badge/VideoCaptioning-DeepLearning-orange) ![Github Watchers](https://img.shields.io/github/watchers/WingsBrokenAngel/Semantics-AssistedVideoCaptioning?color=brightgreen) ![GitHub stars](https://img.shields.io/github/stars/WingsBrokenAngel/Semantics-AssistedVideoCaptioning?color=brightgreen) ![GitHub forks](https://img.shields.io/github/forks/WingsBrokenAngel/Semantics-AssistedVideoCaptioning?color=brightgreen&label=Fork) ![License](https://img.shields.io/github/license/WingsBrokenAngel/Semantics-AssistedVideoCaptioning.svg?color=brightgreen&style=flat)
  
 ## Table of Contents
 1. [Description](#description)
@@ -9,7 +9,8 @@
 5. [Results](#results)
     1. [Comparison on Youtube2Text](#cy)
     2. [Comparison on MSR-VTT](#cm)
-6. [Citation](#citation)
+6. [Results and Data for the Final Version of the Paper](#newest)
+7. [Citation](#citation)
 
 ---
 ## <a name="description"></a> Description
@@ -182,6 +183,16 @@ If you need a newer and more powerful model, please refer to [Delving-Deeper-int
 - ECO_full_kinetics.caffemodel ([GoogleDrive](https://drive.google.com/file/d/18infS2YgBFEVKMphtO8XEtmMcZiZldYo/view?usp=sharing))
     + MD5 31ed18d5eadfd59cb65b7dcdadc310b4
     + SHA-1 b749384d2dac102b8035965566e3030fce465c20
+
+## <a name="newest"></a>Results and Data for the Final Version of the Paper
+### Results
+![MSVD Results](https://github.com/WingsBrokenAngel/Semantics-AssistedVideoCaptioning/blob/master/photos/Youtube2TextResults.png)
+
+![MSR-VTT Results](https://github.com/WingsBrokenAngel/Semantics-AssistedVideoCaptioning/blob/master/photos/MSR-VTTResults.png)
+
+### Data and Models
+[GoogleDrive](https://drive.google.com/file/d/1TYLo7QX7CNo7Vz5fbZ6pRLqutHh8Ocxj/view?usp=sharing)
+- SHA256: e4d8e6d149cb02ceeae82bed7aeb20116ed289c703b2f98cdd7348bff4378b13
 
 ---
 ## <a name="citation"></a> Citation
