@@ -191,8 +191,8 @@ If you need a newer and more powerful model, please refer to [Delving-Deeper-int
 ![MSR-VTT Results](https://github.com/WingsBrokenAngel/Semantics-AssistedVideoCaptioning/blob/master/photos/MSR-VTTResults.png)
 
 ### Data and Models
-[GoogleDrive](https://drive.google.com/file/d/1TYLo7QX7CNo7Vz5fbZ6pRLqutHh8Ocxj/view?usp=sharing)
-- SHA256: e4d8e6d149cb02ceeae82bed7aeb20116ed289c703b2f98cdd7348bff4378b13
+[GoogleDrive](https://drive.google.com/file/d/1qjqoZyW8WGFcacloP1I8l3_pvf44NprX/view?usp=sharing)
+- SHA256: 25c84da5d3fee10a36a6285b799d12e23af1907282e1b301fd93698756ab6ae0
 
 ---
 ## <a name="citation"></a> Citation
