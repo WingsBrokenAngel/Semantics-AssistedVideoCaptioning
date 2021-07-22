@@ -184,7 +184,7 @@ If you need a newer and more powerful model, please refer to [Delving-Deeper-int
     + MD5 31ed18d5eadfd59cb65b7dcdadc310b4
     + SHA-1 b749384d2dac102b8035965566e3030fce465c20
 
-## <a name="newest"></a>Results and Data for the Final Version of the Paper
+## <a name="newest"></a>Results and Data for the Final Version of the Paper (Updating)
 ### Results
 
 ![MSR-VTT Results](https://github.com/WingsBrokenAngel/Semantics-AssistedVideoCaptioning/blob/master/photos/MSRVTT_result.png)
