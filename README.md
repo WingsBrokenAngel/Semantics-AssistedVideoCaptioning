@@ -187,7 +187,7 @@ If you need a newer and more powerful model, please refer to [Delving-Deeper-int
 ## <a name="newest"></a>Results and Data for the Final Version of the Paper
 ### Results
 
-![MSR-VTT Results](https://github.com/WingsBrokenAngel/Semantics-AssistedVideoCaptioning/blob/master/photos/MSRVTT_results.png)
+![MSR-VTT Results](https://github.com/WingsBrokenAngel/Semantics-AssistedVideoCaptioning/blob/master/photos/MSRVTT_result.png)
 
 ### Data and Models
 [GoogleDrive](https://drive.google.com/file/d/1JFjfEOq2YsD18zvMX1_6Nx6L3x1hpxbd/view?usp=sharing)
