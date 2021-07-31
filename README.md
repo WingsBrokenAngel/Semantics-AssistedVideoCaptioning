@@ -95,79 +95,10 @@ If you need a newer and more powerful model, please refer to [Delving-Deeper-int
 ## <a name="data"></a> Data
 
 ### <a name="dmsvd"></a> MSVD
-- MSVD reference file  ([GoogleDrive](https://drive.google.com/file/d/1mOioflb-P7BK43r-dElxAvhNLKmbbjbk/view?usp=sharing))
-    * MD5 9101af3b24c27e0c63b98ac55511d04c
-    * SHA-1 3cd3b556c06e8f944f0f01ae8ac03a262dd0af04
-- MSVD ResNeXt ECO file  ([GoogleDrive](https://drive.google.com/file/d/1dfOnxYRwH0hUVrspYOCM4I5gdihH8YOz/view?usp=sharing))
-    * This is the video-level feature extracted by [ResNeXt101c64](https://github.com/taehoonlee/tensornets) and [Efficient Convolutional Network](https://github.com/mzolfaghari/ECO-efficient-video-understanding).
-    * MD5 b4307b302f8d9754e6e7dac284da0625
-    * SHA-1 a34ab8c1b3fc2ecfae43d454ddd3f6eddccbeb1a
-- MSVD Semantic tag file ([GoogleDrive](https://drive.google.com/file/d/1VSD_jtVl34GPqArksXsaVT2LzGEXrsju/view?usp=sharing))
-    * MD5 df5dd440bf6ad78a3266dfbf9018d01e
-    * SHA-1 0fb63a3b381c56baf982bbb4fc46027f26a45b02
-- MSVD Corpus file ([GoogleDrive](https://drive.google.com/file/d/1xWc3ymqSsPmhCnSPCE65kJ-hIzJSBAdL/view?usp=sharing))
-    * MD5 0161e1d3207f10f7e13f36a10ae81c4f
-    * SHA-1 a57c184f80ab2962ffdee71391fc6692c9a42c4b
-- MSVD tag ground truth for MSVD tag model ([GoogleDrive](https://drive.google.com/file/d/1__MLE7V7FxeO9ZDTjyyAkws3QqHrgGv7/view?usp=sharing))
-    * MD5 e2d66ae3f2c28f25071c8ed4591ee9bb
-    * SHA-1 351ed0f794ac4ff17ff96a7984a259b1843fa2f0
-- MSRVTT tag ground truth for MSVD tag model ([GoogleDrive](https://drive.google.com/file/d/1Uk8nZUGenRTEEF8RdnzyyrGloNpCz81x/view?usp=sharing))
-    * The previous two files are used to train the tagging network.
-    * MD5 d899e591940926fdbe97dd756a6b1cd8
-    * SHA-1 4a8b7c72c2ba9e525ef5cdce27c61e4eff22bb5e
 - MSVD tag index2word and word2index mappings([ExternalRepo](https://github.com/zhegan27/SCN_for_video_captioning))
     * We use the same word-index mapping in semantic tag to the code in this link.
-- Video name to numerical index mapping file of MSVD  ([GoogleDrive](https://drive.google.com/file/d/1SSfj7JQTi3H-nukYu6KbOk_Sj2RRsyz8/view?usp=sharing))
-    + data type: dict, each key is a video name and the corresponding value is the video index.
-    + MD5 ee3ef82df50694db629297fd60fd7427
-    + SHA-1 99240d9e91cb6378fded8a6702301e390ffc17fc 
-- Model Checkpoint:
-    + meta ([GoogleDrive](https://drive.google.com/file/d/1aB10Dgqzm2CIjUMlEWXKJU-C3aEuAJEZ/view?usp=sharing))
-        * MD5 5d8a0510b20734cf58df9554fd421c50
-        * SHA-256 b3ce468e35cab0b409b6de8379fe4db89a439756ca9a33f16e4724b245c3174b
-    + index ([GoogleDrive](https://drive.google.com/file/d/15cEU1AxefRjLLNZzF94TiGSDEZ25OZkH/view?usp=sharing))
-        * MD5 0867cdf66639e9f6fc1f5d1c78b7d05e
-        * SHA-256 462ca7467593393e28f211fb2554e34f80c23e2e3d8e1f49668530064cb7abae
-    + data-00000-of-00001 ([GoogleDrive](https://drive.google.com/file/d/1wtp4g-q90Cs5FoSgv0Zj2kInbKFFnhUu/view?usp=sharing))
-        * MD5 1c3a83f1c9a0a38e30d4ab22af77377d
-        * SHA-256 caeaf341f86599c4acef0a67d893f040fa0d287dde8cac7db70bb3e24a10b68f
 
 ### <a name="dmsrvtt"></a> MSRVTT
-- MSRVTT reference file ([GoogleDrive](https://drive.google.com/file/d/1qn_ZVZwQG7x6hnvl0yARv332jo2ZB-DN/view?usp=sharing))
-    * MD5 2ca68300ab2440ab0f6972ea12a0f323
-    * SHA-1 024be7b58fd26c5add388e42210170484f0e86cf
-- MSRVTT ResNeXt ECO file ([GoogleDrive](https://drive.google.com/file/d/1RxCYIN651n0xrE0p9VEB8QxTNa3wUYnP/view?usp=sharing))
-    * This is the video-level feature extracted by 
-    [ResNeXt101c64](https://github.com/taehoonlee/tensornets) and 
-    [Efficient Convolutional Network](https://github.com/mzolfaghari/ECO-efficient-video-understanding).
-    * MD5 d0f05df7d113e4914ab9981d03c7dc70
-    * SHA-1 258e3e92462469dbaf97808f2ca1eb8369f0930b
-- MSRVTT Semantic tag file ([GoogleDrive](https://drive.google.com/file/d/11B5oVj06L4PlG1xuu6ECbNvntHgqk2iz/view?usp=sharing))
-    * MD5 e41fd8fe8e198a6578c84db273ca8bd9
-    * SHA-1 2129dccd7a67a3d56d803e9f4c032da9b7e81742
-- MSRVTT Corpus file ([GoogleDrive](https://drive.google.com/file/d/1xUnWIEqhrXtzauXPdv75e_VgPzNoon7j/view?usp=sharing))
-    * MD5 eba8f53dc1fc1f91bc1d434326964366
-    * SHA-1 5a63a2d4215b6894cb6d8c9319c133896ece3ea2
-- MSVD tag ground truth for MSRVTT tag model ([GoogleDrive](https://drive.google.com/file/d/1MU6sMIFgWkR_Cb1Ff6KzpBqMXFhMhXZ8/view?usp=sharing))
-    * MD5 c9ce9007ef754338d89e40018d14c923
-    * SHA-1 03719c1324f9299a510c8c380352b9f4b7125878
-- MSRVTT tag ground truth for MSRVTT tag model ([GoogleDrive](https://drive.google.com/file/d/14PHj4dfs75Fm5ZR43S6RDXPHT83U6A8K/view?usp=sharing))
-    * The previous two files are used to train the tagging network.
-    * MD5 e7d6defa3278bc91ecd7dcbdbda16649
-    * SHA-1 2eea2721fcf744d8e42b6ef95c1e2b481534c5aa
-- MSRVTT tag word2index and index2word ([GoogleDrive](https://drive.google.com/file/d/1XPS_gRwK0LFG1m0NWiXAPRemx1zEfVyw/view?usp=sharing))
-    * This file contains word-to-index mapping and index-to-word mapping.
-    * SHA-256 50b00cebb12a38c0c4a546c577c99c12e97c8961b4f2ce9472b77d4ad05e1226
-- Model Checkpoint:
-    + meta ([GoogleDrive](https://drive.google.com/file/d/1AyzRNULV-j9ue4kIYN0HfTwGJ53-g1WA/view?usp=sharing))
-        * MD5 cc4e6775bf0eec75b06e6e6fecfd5eb6
-        * SHA-256 f0e1cca6d4186756b6a7f062a0a9824357fe1d37dfb984ad09ceda2a7db01fac
-    + index ([GoogleDrive](https://drive.google.com/file/d/12PS3xjXgBO6Jg_hZT8--c3nKhWrIVhZY/view?usp=sharing))
-        * MD5 0da1d37d62ca514c9b31f6c8fced4559
-        * SHA-256 ab6f16f94b91d824b8777dda40a67770e0d73b548f556d1f6c169a7862fb3906
-    + data-00000-of-00001 ([GoogleDrive](https://drive.google.com/file/d/1m0KPeesyx7KynA_QGmS6wsox9Toq8py9/view?usp=sharing))
-        * MD5 5f28126cc6a2e38fe7919715cbc4bb7e
-        * SHA-256 74ad87644a9380ef8fca0f2beee85e0ba87a9bfe20e05e4e93dfe4d876a7f167
 - MSR-VTT Dataset:
 	- train_val_test_annotation.zip ([GoogleDrive](https://drive.google.com/file/d/1iJsKnBcVdwD5h23k-dHu-K7Y_cUssUNy/view?usp=sharing))
 		- SHA-256: ce2d97dd82d03e018c6f9ee69c96eb784397d1c83f734fdb8c17aafa5e27da31
@@ -177,6 +108,10 @@ If you need a newer and more powerful model, please refer to [Delving-Deeper-int
 		- SHA-256: b550997526272ab68a42f1bd93315aa2bbb521c71f33d0cb922fbbfb86f15aae
 	- msr-vtt-v1.part3.rar ([GoogleDrive](https://drive.google.com/file/d/1WX7TWnFQzTqAGeLAarcL6sAQ0ECNHmQb/view?usp=sharing))
 		- SHA-256: debbd0e535e77d9927ffb375299c08990519e22ba7dac542b464b70d440ef515
+
+- Data and Models for both MSVD and MSR-VTT
+    - [data.zip](https://drive.google.com/file/d/1LV5HMmbllnomHlZ2CQ-7QGE1Al9F0Qwi/view?usp=sharing)
+    - SHA-256: fadd721eaa0f13aff7c3505e4784a003514c33ffa5a934a9dcf13955285df11f
 
 ### <a name="deco"></a>ECO
 - Source Code: [GitHub](https://github.com/mzolfaghari/ECO-efficient-video-understanding).
