@@ -187,11 +187,15 @@ If you need a newer and more powerful model, please refer to [Delving-Deeper-int
 ## <a name="newest"></a>Results and Data for the Final Version of the Paper (Updating)
 ### Results
 
+1. MSVD Results
+![MSVD Results](https://github.com/WingsBrokenAngel/Semantics-AssistedVideoCaptioning/blob/master/photos/MSVD_result.png)
+
+2. MSR-VTT Results
 ![MSR-VTT Results](https://github.com/WingsBrokenAngel/Semantics-AssistedVideoCaptioning/blob/master/photos/MSRVTT_result.png)
 
 ### Data and Models
-[GoogleDrive](https://drive.google.com/file/d/1JFjfEOq2YsD18zvMX1_6Nx6L3x1hpxbd/view?usp=sharing)
-- SHA256: 1c9abe10a0112e9db96b2dd4682f4f0dcfdeefefa9862c2f0c9a075a53433ae2
+[GoogleDrive](https://drive.google.com/file/d/1fN0fq0E3dOA-LYQz42iBe6zGIOO-gpm5/view?usp=sharing)
+- SHA256: d2a731794ef1bc90c9ccd6c7fe5e92fa7ad104f9e9188ac751c984b23d3a939b
 
 ---
 ## <a name="citation"></a> Citation
